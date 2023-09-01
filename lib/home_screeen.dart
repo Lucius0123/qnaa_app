@@ -281,7 +281,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           : () {
                               _controller!.nextPage(
                                   duration: Duration(milliseconds: 750),
-                                  curve: Curves.linear);
+                                  curve: Curves.easeOut);
                               setState(() {
                                 isPrassed = false;
                               });
